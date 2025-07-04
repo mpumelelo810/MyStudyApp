@@ -1,0 +1,18 @@
+study_app/
+├── app/
+│   ├── __init__.py           # Application factory and core setup
+│   ├── auth/                 # User authentication (login, register, models)
+│   ├── courses/              # Course management (add, view, sections, models)
+│   ├── content/              # Notes and Questions content (add, view, models)
+│   ├── main/                 # Main application routes (e.g., index)
+│   ├── templates/            # Jinja2 HTML templates for frontend rendering
+│   │   ├── base.html
+│   │   └── ... (auth, courses, content subdirectories)
+│   └── static/               # Static assets (CSS, JS, images)
+│       ├── css/
+│       ├── js/
+│       └── images/
+├── config.py                 # Application configuration settings
+├── requirements.txt          # Python dependencies
+├── run.py                    # Entry point to run the Flask application
+└── service-worker.js         # JavaScript for offline caching and PWA features
